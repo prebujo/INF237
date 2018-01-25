@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/A-mazing/A_mazing.cpp">
+			<Option target="Solutions_C__"/>
+		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/A-mazing/A_mazing.h">
+			<Option target="Solutions_C__"/>
+		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/Bard/Bard.cpp">
 			<Option target="Solutions_C__"/>
 		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/Bard/Bard.h">
+			<Option target="Solutions_C__"/>
+		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/GettingGold/GettingGold.cpp">
+			<Option target="Solutions_C__"/>
+		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/GettingGold/GettingGold.h">
 			<Option target="Solutions_C__"/>
 		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Solutions C++/CMakeLists.txt">

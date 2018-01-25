@@ -123,6 +123,33 @@ Solutions_C__/fast:
 	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/build
 .PHONY : Solutions_C__/fast
 
+A-mazing/A_mazing.o: A-mazing/A_mazing.cpp.o
+
+.PHONY : A-mazing/A_mazing.o
+
+# target to build an object file
+A-mazing/A_mazing.cpp.o:
+	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/A-mazing/A_mazing.cpp.o
+.PHONY : A-mazing/A_mazing.cpp.o
+
+A-mazing/A_mazing.i: A-mazing/A_mazing.cpp.i
+
+.PHONY : A-mazing/A_mazing.i
+
+# target to preprocess a source file
+A-mazing/A_mazing.cpp.i:
+	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/A-mazing/A_mazing.cpp.i
+.PHONY : A-mazing/A_mazing.cpp.i
+
+A-mazing/A_mazing.s: A-mazing/A_mazing.cpp.s
+
+.PHONY : A-mazing/A_mazing.s
+
+# target to generate assembly for a file
+A-mazing/A_mazing.cpp.s:
+	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/A-mazing/A_mazing.cpp.s
+.PHONY : A-mazing/A_mazing.cpp.s
+
 Bard/Bard.o: Bard/Bard.cpp.o
 
 .PHONY : Bard/Bard.o
@@ -150,6 +177,33 @@ Bard/Bard.cpp.s:
 	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/Bard/Bard.cpp.s
 .PHONY : Bard/Bard.cpp.s
 
+GettingGold/GettingGold.o: GettingGold/GettingGold.cpp.o
+
+.PHONY : GettingGold/GettingGold.o
+
+# target to build an object file
+GettingGold/GettingGold.cpp.o:
+	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/GettingGold/GettingGold.cpp.o
+.PHONY : GettingGold/GettingGold.cpp.o
+
+GettingGold/GettingGold.i: GettingGold/GettingGold.cpp.i
+
+.PHONY : GettingGold/GettingGold.i
+
+# target to preprocess a source file
+GettingGold/GettingGold.cpp.i:
+	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/GettingGold/GettingGold.cpp.i
+.PHONY : GettingGold/GettingGold.cpp.i
+
+GettingGold/GettingGold.s: GettingGold/GettingGold.cpp.s
+
+.PHONY : GettingGold/GettingGold.s
+
+# target to generate assembly for a file
+GettingGold/GettingGold.cpp.s:
+	$(MAKE) -f CMakeFiles/Solutions_C__.dir/build.make CMakeFiles/Solutions_C__.dir/GettingGold/GettingGold.cpp.s
+.PHONY : GettingGold/GettingGold.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Solutions_C__"
+	@echo "... A-mazing/A_mazing.o"
+	@echo "... A-mazing/A_mazing.i"
+	@echo "... A-mazing/A_mazing.s"
 	@echo "... Bard/Bard.o"
 	@echo "... Bard/Bard.i"
 	@echo "... Bard/Bard.s"
+	@echo "... GettingGold/GettingGold.o"
+	@echo "... GettingGold/GettingGold.i"
+	@echo "... GettingGold/GettingGold.s"
 .PHONY : help
 
 

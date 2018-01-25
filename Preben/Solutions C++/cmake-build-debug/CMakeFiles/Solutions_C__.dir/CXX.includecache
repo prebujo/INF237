@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/preben/repo/inf237/Preben/Solutions C++/A-mazing/A_mazing.cpp
+array
+-
+iostream
+/home/preben/repo/inf237/Preben/Solutions C++/A-mazing/iostream
+
 /home/preben/repo/inf237/Preben/Solutions C++/Bard/Bard.cpp
 Bard.h
 /home/preben/repo/inf237/Preben/Solutions C++/Bard/Bard.h
@@ -15,4 +21,6 @@ bitset
 -
 
 /home/preben/repo/inf237/Preben/Solutions C++/Bard/Bard.h
+
+/home/preben/repo/inf237/Preben/Solutions C++/GettingGold/GettingGold.cpp
 
