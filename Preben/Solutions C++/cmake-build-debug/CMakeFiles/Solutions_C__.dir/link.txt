@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Solutions_C__.dir/Bard/Bard.cpp.o CMakeFiles/Solutions_C__.dir/GettingGold/GettingGold.cpp.o CMakeFiles/Solutions_C__.dir/A-mazing/A_mazing.cpp.o  -o Solutions_C__ 
