@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cTest
+# Target rules for targets named learningC
 
 # Build rule for target.
-cTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cTest
-.PHONY : cTest
+learningC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learningC
+.PHONY : learningC
 
 # fast build rule for target.
-cTest/fast:
-	$(MAKE) -f CMakeFiles/cTest.dir/build.make CMakeFiles/cTest.dir/build
-.PHONY : cTest/fast
+learningC/fast:
+	$(MAKE) -f CMakeFiles/learningC.dir/build.make CMakeFiles/learningC.dir/build
+.PHONY : learningC/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/cTest.dir/build.make CMakeFiles/cTest.dir/main.c.o
+	$(MAKE) -f CMakeFiles/learningC.dir/build.make CMakeFiles/learningC.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/cTest.dir/build.make CMakeFiles/cTest.dir/main.c.i
+	$(MAKE) -f CMakeFiles/learningC.dir/build.make CMakeFiles/learningC.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/cTest.dir/build.make CMakeFiles/cTest.dir/main.c.s
+	$(MAKE) -f CMakeFiles/learningC.dir/build.make CMakeFiles/learningC.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cTest"
+	@echo "... learningC"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

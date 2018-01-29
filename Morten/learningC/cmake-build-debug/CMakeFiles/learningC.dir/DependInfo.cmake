@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/morten/code/git/INF237/Morten/learningC/main.c" "/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/CMakeFiles/cTest.dir/main.c.o"
+  "/home/morten/code/git/INF237/Morten/learningC/main.c" "/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/CMakeFiles/learningC.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

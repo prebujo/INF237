@@ -110,7 +110,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=cTest
+CMAKE_PROJECT_NAME:STATIC=learningC
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -168,10 +168,10 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //Value Computed by CMake
-cTest_BINARY_DIR:STATIC=/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug
+learningC_BINARY_DIR:STATIC=/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug
 
 //Value Computed by CMake
-cTest_SOURCE_DIR:STATIC=/home/morten/code/git/INF237/Morten/learningC
+learningC_SOURCE_DIR:STATIC=/home/morten/code/git/INF237/Morten/learningC
 
 
 ########################

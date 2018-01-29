@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="cTest"/>
+		<Option title="learningC"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="cTest">
-				<Option output="/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/cTest" prefix_auto="0" extension_auto="0"/>
+			<Target title="learningC">
+				<Option output="/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/learningC" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,14 +51,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 cTest"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 learningC"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="cTest/fast">
-				<Option output="/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/cTest" prefix_auto="0" extension_auto="0"/>
+			<Target title="learningC/fast">
+				<Option output="/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/learningC" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,7 +71,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 cTest/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 learningC/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/morten/code/git/INF237/Morten/learningC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,7 +79,7 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/morten/code/git/INF237/Morten/learningC/main.c">
-			<Option target="cTest"/>
+			<Option target="learningC"/>
 		</Unit>
 		<Unit filename="/home/morten/code/git/INF237/Morten/learningC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
