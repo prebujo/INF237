@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void pointers() {
+    int shaka = 10;
+    int *pointer;    //create a pointer
+    pointer = &shaka;   //refers to adress of shaka
+    printf("%d", *pointer);     //print the content at this adress
+}
+
+void dynamicMemory() {
+    int n = 1000;   //# of array elements
+    int *a;     //pointer to first array element
+    a = (int*) malloc(n*sizeof(int));   //dynamically allocate memory for n integers
+
+    //a can now be used as an array!
+
+    int i; //counters cannot be declared in for-statements
+    for (i = 0; i < n; i++) {
+        a[i] = rand();  //fill with random elements
+    }
+
+    for (i = 0; i < n; i++) {
+        printf("a[%d] = %d", i, a[i]);
+    }
+
+    /* ABOUT MALLOC:
+     * malloc(m)
+        ● allocates m bytes of contiguous memory
+        ● returns the memory address (void*) of the first byte
+        ● must cast returned memory address to wanted type
+    ● sizeof(datatype) = number of bytes occupied by datatype-variables
+    ● when the memory is no longer needed it must be
+    released (free) to avoid memory leaks
+    ● the compiler (might) accept
+    int *a;
+    a[5] = 73;
+    but a runtime error (segmentation fault) could occur
+    ● You can write either int *a or int* a
+    ● You can write either a[i] (recommended) or *(a+i)
+    ● Note that there is no range checking at runtime
+     */
+}
+int main(int argc, char *argv[]) {
+    dynamicMemory();
+    return 0;
+}
+
