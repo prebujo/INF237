@@ -55,7 +55,7 @@ int main() {
         }
     }
     //kjører dfs med startutgangspunkt og labyrinten. Deretter skriver man ut gold.
-    dfs(startx,starty, maze);
+    dfs(startx, starty, maze);
     cout << gold;
     return 0;
 }
