@@ -17,7 +17,7 @@ int main() {
         for (int j = 0; j < N; ++j) {
             int x, y;
             cin >> x; cin >> y;
-            dolls->push_back(make_pair(x,y));
+            (*dolls).push_back(make_pair(x,y));
         }
         solve(dolls, N);
     }
@@ -25,9 +25,9 @@ int main() {
 }
 
 void solve(vector<pair<int, int>> *dolls, int N) {
-    sort(*dolls->begin(), *dolls->end(), compare);
+    sort((*dolls).begin(), (*dolls).end(), compare);
     for (int i = 0; i < N; ++i) {
-        int first = dolls->at(i).first;
+        int first = (*dolls).at(i).first;
         cout << first;
     }
 }
