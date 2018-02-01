@@ -18,9 +18,11 @@ int main() {
     int output = 0;
 
     for (int j = 0; j < n; ++j) {
-        if (array[j] > max && array[j] == sortedarray[j]){
+        if (array[j] > max){
             max = array[j];
-            output++;
+            if(array[j] == sortedarray[j]) {
+                output++;
+            }
         }
     }
     cout << output << endl;
