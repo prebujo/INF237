@@ -54,10 +54,10 @@ RM = /home/morten/code/clion-2017.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/morten/code/git/INF237/Morten/GettingGold
+CMAKE_SOURCE_DIR = /home/morten/code/git/INF237/Morten/c++/GettingGold
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/morten/code/git/INF237/Morten/GettingGold/cmake-build-debug
+CMAKE_BINARY_DIR = /home/morten/code/git/INF237/Morten/c++/GettingGold/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/GettingGold.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/morten/code/git/INF237/Morten/GettingGold/cmake-build-d
 CMakeFiles/GettingGold.dir/all:
 	$(MAKE) -f CMakeFiles/GettingGold.dir/build.make CMakeFiles/GettingGold.dir/depend
 	$(MAKE) -f CMakeFiles/GettingGold.dir/build.make CMakeFiles/GettingGold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/morten/code/git/INF237/Morten/GettingGold/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target GettingGold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/morten/code/git/INF237/Morten/c++/GettingGold/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target GettingGold"
 .PHONY : CMakeFiles/GettingGold.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/GettingGold.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GettingGold.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/morten/code/git/INF237/Morten/GettingGold/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/morten/code/git/INF237/Morten/c++/GettingGold/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GettingGold.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/morten/code/git/INF237/Morten/GettingGold/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/morten/code/git/INF237/Morten/c++/GettingGold/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/GettingGold.dir/rule
 
 # Convenience name for target.

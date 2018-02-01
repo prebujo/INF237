@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/morten/code/git/INF237/Morten/allocation/main.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+
