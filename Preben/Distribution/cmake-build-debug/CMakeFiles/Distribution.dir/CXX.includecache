@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/preben/repo/inf237/Preben/Distribution/main.cpp
+
+/home/preben/repo/inf237/Preben/Distribution/main2.cpp
 iostream
 -
 algorithm

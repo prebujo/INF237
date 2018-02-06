@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Distribution.dir/main.cpp.o"
+  "CMakeFiles/Distribution.dir/main2.cpp.o"
   "Distribution.pdb"
   "Distribution"
 )

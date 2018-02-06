@@ -87,6 +87,12 @@
 		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/main.cpp">
 			<Option target="Distribution"/>
 		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/main2.cpp">
+			<Option target="Distribution"/>
+		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/main2.h">
+			<Option target="Distribution"/>
+		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
