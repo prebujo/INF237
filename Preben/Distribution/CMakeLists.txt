@@ -3,4 +3,4 @@ project(Distribution)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Distribution main.cpp main2.cpp main2.h)
+add_executable(Distribution main.cpp main2.cpp main2.h main3.cpp main3.h)

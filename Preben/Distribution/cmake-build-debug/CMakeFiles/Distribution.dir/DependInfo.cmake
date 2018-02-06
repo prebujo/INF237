@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/preben/repo/inf237/Preben/Distribution/main.cpp" "/home/preben/repo/inf237/Preben/Distribution/cmake-build-debug/CMakeFiles/Distribution.dir/main.cpp.o"
   "/home/preben/repo/inf237/Preben/Distribution/main2.cpp" "/home/preben/repo/inf237/Preben/Distribution/cmake-build-debug/CMakeFiles/Distribution.dir/main2.cpp.o"
+  "/home/preben/repo/inf237/Preben/Distribution/main3.cpp" "/home/preben/repo/inf237/Preben/Distribution/cmake-build-debug/CMakeFiles/Distribution.dir/main3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
