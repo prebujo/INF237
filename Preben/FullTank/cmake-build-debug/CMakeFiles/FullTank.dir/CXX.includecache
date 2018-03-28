@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/preben/repo/inf237/Preben/FullTank/main.cpp
+cmath
+-
+iostream
+-
+queue
+-
+vector
+-
+limits
+-
+algorithm
+-
+list
+-
+

@@ -1,3 +1,0 @@
-/home/morten/code/INF237/Morten/c++/Nesteddolls/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/morten/code/INF237/Morten/c++/Nesteddolls/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/morten/code/INF237/Morten/c++/Nesteddolls/cmake-build-debug/CMakeFiles/Nesteddolls.dir

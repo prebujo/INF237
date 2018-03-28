@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Summa.dir/main.cpp.o  -o Summa 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Distribution.dir/main.cpp.o CMakeFiles/Distribution.dir/main2.cpp.o CMakeFiles/Distribution.dir/main3.cpp.o  -o Distribution 
+/usr/bin/c++  -g   CMakeFiles/Distribution.dir/main.cpp.o CMakeFiles/Distribution.dir/main2.cpp.o CMakeFiles/Distribution.dir/main3.cpp.o CMakeFiles/Distribution.dir/main4.cpp.o  -o Distribution 

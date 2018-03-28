@@ -26,11 +26,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-523">
+              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,9 +76,15 @@
       <file leaf-file-name="stl_iterator_base_types.h" pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/5/bits/stl_iterator_base_types.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3672">
+            <state relative-caret-position="3258">
               <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1517890060000" expanded="false" signature="2660:2716" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="5302:6241" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="6250:6278" ph="&lt;_Iterator&gt;" />
+                <marker date="1517890060000" expanded="true" signature="6310:6645" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="8330:8527" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +94,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3384">
               <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1517890059000" expanded="true" signature="1334:7886" ph="{...}" />
+                <marker date="1517890059000" expanded="true" signature="1352:3621" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,9 +105,65 @@
       <file leaf-file-name="stl_list.h" pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/5/bits/stl_list.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2682">
+            <state relative-caret-position="2628">
               <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1517890060000" expanded="false" signature="2443:2470" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="2938:3417" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="3714:3864" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="9849:9876" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="10109:10213" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="10291:10844" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="11215:11311" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="12335:12837" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="17371:17605" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="17618:17955" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="18210:18277" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="18568:19435" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="19448:19775" ph="/**...*/" />
+                <marker date="1517890060000" expanded="false" signature="20418:21301" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="21731:22036" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="22049:22082" ph="&lt;_InputIterator&gt;" />
+                <marker date="1517890060000" expanded="true" signature="22235:22443" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="23140:23977" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="25057:25289" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="25302:25335" ph="&lt;_InputIterator&gt;" />
+                <marker date="1517890060000" expanded="true" signature="25419:25622" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="25664:26053" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="28623:29817" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="30453:31504" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="31517:32029" ph="/**...*/" />
+                <marker date="1517890060000" expanded="false" signature="33627:33877" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="35003:35247" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="35878:37156" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="37169:37682" ph="/**...*/" />
+                <marker date="1517890060000" expanded="false" signature="37797:39258" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="39300:40040" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="40053:40588" ph="/**...*/" />
+                <marker date="1517890060000" expanded="true" signature="40678:40755" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="40797:41637" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="41650:42179" ph="/**...*/" />
+                <marker date="1517890060000" expanded="false" signature="42186:42219" ph="&lt;_InputIterator&gt;" />
+                <marker date="1517890060000" expanded="true" signature="42332:42415" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="43245:43287" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="44316:44377" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="46248:46302" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="46632:46742" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="46784:47310" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="47323:47715" ph="/**...*/" />
+                <marker date="1517890060000" expanded="false" signature="48124:48700" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="48742:49441" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="49454:49980" ph="/**...*/" />
+                <marker date="1517890060000" expanded="false" signature="50478:51239" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="54043:54140" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="54836:55097" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="55110:55148" ph="&lt;_StrictWeakOrdering&gt;" />
+                <marker date="1517890060000" expanded="false" signature="56681:56704" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="57018:57231" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="58383:58503" ph="{...}" />
+                <marker date="1517890060000" expanded="false" signature="58515:58756" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="59042:59079" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,9 +171,13 @@
       <file leaf-file-name="new_allocator.h" pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
+            <state relative-caret-position="2178">
               <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1517890060000" expanded="false" signature="1363:1385" ph="..." />
+                <marker date="1517890060000" expanded="false" signature="2313:2467" ph="..." />
+                <marker date="1517890060000" expanded="true" signature="3581:3830" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +187,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1818">
               <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1517890059000" expanded="true" signature="1839:4779" ph="..." />
+                <marker date="1517890059000" expanded="false" signature="5271:5376" ph="..." />
+                <marker date="1517890059000" expanded="false" signature="5855:5891" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,14 +291,15 @@
       <workItem from="1517084269016" duration="4709000" />
       <workItem from="1517230701386" duration="16377000" />
       <workItem from="1517485672563" duration="885000" />
+      <workItem from="1521247302470" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42177000" />
+    <option name="totallyTimeSpent" value="42201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18814017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -276,6 +348,159 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9846">
+          <caret line="547" column="0" lean-forward="false" selection-start-line="547" selection-start-column="0" selection-end-line="547" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/alloc_traits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9738">
+          <caret line="541" column="0" lean-forward="false" selection-start-line="541" selection-start-column="0" selection-end-line="541" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14490">
+          <caret line="805" column="0" lean-forward="false" selection-start-line="805" selection-start-column="0" selection-end-line="805" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16272">
+          <caret line="904" column="0" lean-forward="false" selection-start-line="904" selection-start-column="0" selection-end-line="904" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_iterator_base_types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2660:2716" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="5302:6241" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="6250:6278" ph="&lt;_Iterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="6310:6645" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="8330:8527" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/predefined_ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3384">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1334:7886" ph="{...}" />
+            <marker date="1517890059000" expanded="true" signature="1352:3621" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2628">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2443:2470" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="2938:3417" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="3714:3864" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="9849:9876" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10109:10213" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10291:10844" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="11215:11311" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="12335:12837" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="17371:17605" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="17618:17955" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18210:18277" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18568:19435" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="19448:19775" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="20418:21301" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="21731:22036" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="22049:22082" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="22235:22443" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="23140:23977" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25057:25289" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25302:25335" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="25419:25622" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="25664:26053" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="28623:29817" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="30453:31504" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="31517:32029" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="33627:33877" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35003:35247" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35878:37156" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="37169:37682" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="37797:39258" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="39300:40040" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="40053:40588" ph="/**...*/" />
+            <marker date="1517890060000" expanded="true" signature="40678:40755" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="40797:41637" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="41650:42179" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="42186:42219" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="42332:42415" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="43245:43287" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="44316:44377" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46248:46302" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46632:46742" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46784:47310" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="47323:47715" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="48124:48700" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="48742:49441" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="49454:49980" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="50478:51239" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54043:54140" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54836:55097" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="55110:55148" ph="&lt;_StrictWeakOrdering&gt;" />
+            <marker date="1517890060000" expanded="false" signature="56681:56704" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="57018:57231" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="58383:58503" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="58515:58756" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="59042:59079" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="1363:1385" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="2313:2467" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="3581:3830" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1839:4779" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5271:5376" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5855:5891" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9846">
@@ -304,9 +529,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1098">
           <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -322,7 +545,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3672">
           <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2660:2716" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="5302:6241" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="6250:6278" ph="&lt;_Iterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="6310:6645" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="8330:8527" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -330,7 +559,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3384">
           <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1334:7886" ph="{...}" />
+            <marker date="1517890059000" expanded="true" signature="1352:3621" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -338,7 +570,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2682">
           <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2443:2470" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="2938:3417" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="3714:3864" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="9849:9876" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10109:10213" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10291:10844" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="11215:11311" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="12335:12837" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="17371:17605" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="17618:17955" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18210:18277" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18568:19435" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="19448:19775" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="20418:21301" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="21731:22036" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="22049:22082" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="22235:22443" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="23140:23977" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25057:25289" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25302:25335" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="25419:25622" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="25664:26053" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="28623:29817" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="30453:31504" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="31517:32029" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="33627:33877" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35003:35247" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35878:37156" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="37169:37682" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="37797:39258" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="39300:40040" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="40053:40588" ph="/**...*/" />
+            <marker date="1517890060000" expanded="true" signature="40678:40755" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="40797:41637" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="41650:42179" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="42186:42219" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="42332:42415" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="43245:43287" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="44316:44377" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46248:46302" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46632:46742" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46784:47310" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="47323:47715" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="48124:48700" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="48742:49441" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="49454:49980" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="50478:51239" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54043:54140" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54836:55097" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="55110:55148" ph="&lt;_StrictWeakOrdering&gt;" />
+            <marker date="1517890060000" expanded="false" signature="56681:56704" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="57018:57231" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="58383:58503" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="58515:58756" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="59042:59079" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -346,7 +634,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2214">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="1363:1385" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="2313:2467" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="3581:3830" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -354,7 +646,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1839:4779" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5271:5376" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5855:5891" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -369,7 +665,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31770">
           <caret line="1765" column="0" lean-forward="false" selection-start-line="1765" selection-start-column="0" selection-end-line="1765" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2443:2470" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="2938:3417" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="3714:3864" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="9849:9876" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10109:10213" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10291:10844" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="11215:11311" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="12335:12837" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="17371:17605" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="17618:17955" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18210:18277" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18568:19435" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="19448:19775" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="20418:21301" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="21731:22036" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="22049:22082" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="22235:22443" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="23140:23977" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25057:25289" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25302:25335" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="25419:25622" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="25664:26053" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="28623:29817" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="30453:31504" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="31517:32029" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="33627:33877" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35003:35247" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35878:37156" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="37169:37682" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="37797:39258" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="39300:40040" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="40053:40588" ph="/**...*/" />
+            <marker date="1517890060000" expanded="true" signature="40678:40755" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="40797:41637" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="41650:42179" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="42186:42219" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="42332:42415" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="43245:43287" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="44316:44377" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46248:46302" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46632:46742" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46784:47310" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="47323:47715" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="48124:48700" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="48742:49441" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="49454:49980" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="50478:51239" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54043:54140" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54836:55097" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="55110:55148" ph="&lt;_StrictWeakOrdering&gt;" />
+            <marker date="1517890060000" expanded="false" signature="56681:56704" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="57018:57231" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="58383:58503" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="58515:58756" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="59042:59079" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -377,7 +729,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="1363:1385" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="2313:2467" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="3581:3830" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,7 +741,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1839:4779" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5271:5376" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5855:5891" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,9 +760,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -417,9 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -434,9 +790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -456,9 +810,65 @@
     </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_list.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2682">
+        <state relative-caret-position="2628">
           <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2443:2470" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="2938:3417" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="3714:3864" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="9849:9876" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10109:10213" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="10291:10844" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="11215:11311" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="12335:12837" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="17371:17605" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="17618:17955" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18210:18277" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="18568:19435" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="19448:19775" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="20418:21301" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="21731:22036" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="22049:22082" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="22235:22443" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="23140:23977" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25057:25289" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="25302:25335" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="25419:25622" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="25664:26053" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="28623:29817" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="30453:31504" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="31517:32029" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="33627:33877" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35003:35247" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="35878:37156" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="37169:37682" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="37797:39258" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="39300:40040" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="40053:40588" ph="/**...*/" />
+            <marker date="1517890060000" expanded="true" signature="40678:40755" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="40797:41637" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="41650:42179" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="42186:42219" ph="&lt;_InputIterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="42332:42415" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="43245:43287" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="44316:44377" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46248:46302" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46632:46742" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="46784:47310" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="47323:47715" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="48124:48700" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="48742:49441" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="49454:49980" ph="/**...*/" />
+            <marker date="1517890060000" expanded="false" signature="50478:51239" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54043:54140" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="54836:55097" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="55110:55148" ph="&lt;_StrictWeakOrdering&gt;" />
+            <marker date="1517890060000" expanded="false" signature="56681:56704" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="57018:57231" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="58383:58503" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="58515:58756" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="59042:59079" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,7 +876,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1839:4779" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5271:5376" ph="..." />
+            <marker date="1517890059000" expanded="false" signature="5855:5891" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -480,9 +894,13 @@
     </entry>
     <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
+        <state relative-caret-position="2178">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="1363:1385" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="2313:2467" ph="..." />
+            <marker date="1517890060000" expanded="true" signature="3581:3830" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,15 +916,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3384">
           <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890059000" expanded="true" signature="1334:7886" ph="{...}" />
+            <marker date="1517890059000" expanded="true" signature="1352:3621" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_iterator_base_types.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
+        <state relative-caret-position="3258">
           <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1517890060000" expanded="false" signature="2660:2716" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="5302:6241" ph="..." />
+            <marker date="1517890060000" expanded="false" signature="6250:6278" ph="&lt;_Iterator&gt;" />
+            <marker date="1517890060000" expanded="true" signature="6310:6645" ph="{...}" />
+            <marker date="1517890060000" expanded="false" signature="8330:8527" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -528,11 +955,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-523">
+          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

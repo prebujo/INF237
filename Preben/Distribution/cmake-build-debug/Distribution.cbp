@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/cmake-build-debug/main4.h">
+			<Option target="Distribution"/>
+		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/main.cpp">
 			<Option target="Distribution"/>
 		</Unit>
@@ -97,6 +100,9 @@
 			<Option target="Distribution"/>
 		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/main3.h">
+			<Option target="Distribution"/>
+		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/main4.cpp">
 			<Option target="Distribution"/>
 		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/Distribution/CMakeLists.txt">

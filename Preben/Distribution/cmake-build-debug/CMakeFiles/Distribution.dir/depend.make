@@ -7,3 +7,5 @@ CMakeFiles/Distribution.dir/main2.cpp.o: ../main2.cpp
 
 CMakeFiles/Distribution.dir/main3.cpp.o: ../main3.cpp
 
+CMakeFiles/Distribution.dir/main4.cpp.o: ../main4.cpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Turbo.dir/main.cpp.o CMakeFiles/Turbo.dir/main2.cpp.o  -o Turbo 

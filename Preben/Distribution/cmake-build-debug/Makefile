@@ -204,6 +204,33 @@ main3.cpp.s:
 	$(MAKE) -f CMakeFiles/Distribution.dir/build.make CMakeFiles/Distribution.dir/main3.cpp.s
 .PHONY : main3.cpp.s
 
+main4.o: main4.cpp.o
+
+.PHONY : main4.o
+
+# target to build an object file
+main4.cpp.o:
+	$(MAKE) -f CMakeFiles/Distribution.dir/build.make CMakeFiles/Distribution.dir/main4.cpp.o
+.PHONY : main4.cpp.o
+
+main4.i: main4.cpp.i
+
+.PHONY : main4.i
+
+# target to preprocess a source file
+main4.cpp.i:
+	$(MAKE) -f CMakeFiles/Distribution.dir/build.make CMakeFiles/Distribution.dir/main4.cpp.i
+.PHONY : main4.cpp.i
+
+main4.s: main4.cpp.s
+
+.PHONY : main4.s
+
+# target to generate assembly for a file
+main4.cpp.s:
+	$(MAKE) -f CMakeFiles/Distribution.dir/build.make CMakeFiles/Distribution.dir/main4.cpp.s
+.PHONY : main4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... main3.o"
 	@echo "... main3.i"
 	@echo "... main3.s"
+	@echo "... main4.o"
+	@echo "... main4.i"
+	@echo "... main4.s"
 .PHONY : help
 
 

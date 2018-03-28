@@ -1,0 +1,108 @@
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+class vec {
+private:
+
+public:
+    double x,y;
+    int t;
+
+    vec(double, double, int);
+
+    vec times(double);
+
+    vec minus(vec);
+
+    vec add(vec);
+
+    double dot_prod(vec);
+
+    vec vecAt(vec, vec, int);
+};
+
+vec::vec(double x1, double y1, int t1){
+    x = x1;
+    y = y1;
+    t = t1;
+}
+
+vec vec::times(double a){
+    return vec(x*a,y*a,t);
+}
+
+vec vec::minus(vec v){
+    return vec(x-v.x, y-v.y,t);
+}
+
+vec vec::add(vec v){
+    return vec(x+v.x, y+v.y,t);
+}
+
+double vec::dot_prod(vec v){
+    return (x*v.x + y*v.y);
+}
+
+double dist(vec p, vec q){
+    vec temp = q.minus(p);
+    //cout<< temp.x<<" "<< temp.y<<endl;
+    return sqrt(temp.dot_prod(temp));
+}
+
+vec vecAt(vec s,vec p, int tt){
+    vec temp = p.minus(s);
+    return {s.x+(temp.x/(p.t-s.t)*(tt-s.t)), s.y+(temp.y/(p.t-s.t)*(tt-s.t)), tt};
+}
+
+int main() {
+    int n,t;
+    cin >> n;
+    cin >> t;
+
+    vector<vec> points;
+    points.reserve(n);
+
+    for (int i = 0; i < n ; ++i) {
+        double x,y,tt;
+        cin >> x; cin >> y; cin >> tt;
+        points.push_back(vec(x,y,tt));
+    }
+    double realDist = 0.;
+    vec start = points.front();
+    for (auto const& it : points) {
+        realDist += dist(start,it);
+//        cout <<"t:"<< it.t <<" x:" << it.x <<" y:"<< it.y<<" dist:"<<realDist<<endl;
+        start = it;
+    }
+
+    int end = points.back().t;
+
+    int time = 0;
+    start = points.front();
+    double gpsDist = 0;
+    vec gpsCur = points.front();
+    for (auto const& it : points) {
+        if(it.t == 0) {
+            time += t;
+            continue;
+        }
+        while(time<=it.t){
+            vec stop = vecAt(start,it,time);
+            gpsDist += dist(gpsCur,stop);
+            gpsCur = stop;
+            time+=t;
+        }
+        start = it;
+    }
+
+    vec stop = points.back();
+    gpsDist += dist(gpsCur,stop);
+    gpsCur = stop;
+
+    printf("%10.7f\n", (realDist-gpsDist)/realDist*100);
+
+}

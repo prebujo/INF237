@@ -1,0 +1,3 @@
+/home/preben/repo/inf237/Preben/Contest2/Palindrom/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/preben/repo/inf237/Preben/Contest2/Palindrom/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/preben/repo/inf237/Preben/Contest2/Palindrom/cmake-build-debug/CMakeFiles/Palindrom.dir

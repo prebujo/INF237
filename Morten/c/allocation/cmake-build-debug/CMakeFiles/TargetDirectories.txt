@@ -1,3 +1,0 @@
-/home/morten/code/git/INF237/Morten/allocation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/morten/code/git/INF237/Morten/allocation/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/morten/code/git/INF237/Morten/allocation/cmake-build-debug/CMakeFiles/allocation.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Shopaholic.dir/main.cpp.o  -o Shopaholic 

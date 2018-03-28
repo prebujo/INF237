@@ -1,3 +1,0 @@
-/home/morten/code/INF237/Morten/c++/BallotBoxes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/morten/code/INF237/Morten/c++/BallotBoxes/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/morten/code/INF237/Morten/c++/BallotBoxes/cmake-build-debug/CMakeFiles/BallotBoxes.dir
