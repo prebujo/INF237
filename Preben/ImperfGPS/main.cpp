@@ -39,14 +39,14 @@ double vec::dot_prod(vec v){
 }
 
 //method to calculate distance between to vectors as input
-double dist(vec p, vec q){
+double dist(vec p, vec q){ //runtime depends on sqrt but should be constant
     vec temp = q.minus(p);
     return sqrt(temp.dot_prod(temp));
 }
 
 //method to calculate a vector at time tt between a start vector s
 //and a target vector p.
-vec vecAt(vec s,vec p, int tt){
+vec vecAt(vec s,vec p, int tt){//Constant runtime
     vec temp = p.minus(s);
     return {s.x+(temp.x/(p.t-s.t)*(tt-s.t)), s.y+(temp.y/(p.t-s.t)*(tt-s.t)), tt};
 }
@@ -85,25 +85,31 @@ int main() {
     double gpsDist = 0;
     vec gpsCur = points.front();
 
-    //
-    for (auto const& it : points) {
+    //for each point i check if there are stops between and calculate
+    //the gps distance and add it to the total distance
+    for (auto const& it : points) { //runtime n
+        //skipping first point
         if(it.t == 0) {
-            time += t;
+            time += t;//updating time intervall
             continue;
         }
-        while(time<=it.t){
+        //adding all gps intervals until i reach next actual stop
+        while(time<=it.t){ //runtime max ti/t
             vec stop = vecAt(start,it,time);
             gpsDist += dist(gpsCur,stop);
             gpsCur = stop;
             time+=t;
         }
         start = it;
-    }
+    } // total runtime O(n*ti/t) where ti is the average time interval
+    // of the actual run distance
 
+    //adding distance to final destination.
     vec stop = points.back();
     gpsDist += dist(gpsCur,stop);
     gpsCur = stop;
 
+    //printing percentage difference.
     printf("%10.7f\n", (realDist-gpsDist)/realDist*100);
 
 }

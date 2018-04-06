@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HiddenCamera.dir/main.cpp.o  -o HiddenCamera 
