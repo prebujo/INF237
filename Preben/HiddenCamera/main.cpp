@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//structure of a matrix
 struct m {
     double a1;
     double b1;
@@ -77,6 +78,7 @@ double calcPerc(int n){
     vec first = vec(0,0);
     vec secnd = vec(0,0);
 
+    //taking input
     for (int i = 0; i < n; ++i) {
 
         double x, y;
@@ -91,62 +93,72 @@ double calcPerc(int n){
         vectors.push_back(vec(x,y));
     }
 
+    //vector for camera
     vec cam = first.middle(secnd);
 
+    //calculating area of room
     double areal = 0.;
     for(vector<vec>::size_type i = 1; i != vectors.size(); i++){
         areal += vectors[i].area(vectors[i-1]);
     }
-
     areal += vectors.front().area(vectors.back());
 
+    //finding 45 degree vectors for camera
     vec camVec1 =secnd.minus(cam).vec45CC();
-
     vec camVec2 = camVec1.rotateLeft();
 
+    //finding first camera intersection vector
     int intersect = 0;
     vec intSecVec1 = vec(0,0);
-    for(vector<vec>::size_type i = 2; i <= vectors.size(); i++) {
+    for(vector<vec>::size_type i = 2; i <= vectors.size(); i++) { // O(n)
         vec curVec = vectors[i];
         if(i == vectors.size())
             curVec = vectors[0];
-
+        //calculating vector from previous to current
         vec vecPrevToCur = curVec.minus(vectors[i - 1]);
+        //making the Matrix (M & Mt) and calculating the determinant
         m M = m{camVec1.x, -vecPrevToCur.x, camVec1.y, -vecPrevToCur.y};
         double detM = det(M);
         m Mt = m{camVec1.x, vectors[i - 1].x - cam.x, camVec1.y, vectors[i - 1].y - cam.y};
         double detMt = det(Mt);
+        //making sure the detM and detMt are within the correct limits
         if(detM !=0)
-            if(detMt/detM > 0 && detMt/detM <=1) {
+            if(detMt/detM > 0 && detMt/detM <=1) { //if determinants are within limits i have an intersection
                 intersect = i;
                 intSecVec1 = vec(vectors[i-1].x+detMt/detM*vecPrevToCur.x,vectors[i-1].y+detMt/detM*vecPrevToCur.y);
                 break;
             }
     }
 
+    //finding second camera intersection vector
     int intersect2 = 0;
     vec intSecVec2 = vec(0,0);
-    for(vector<vec>::size_type i = intersect; i <= vectors.size(); i++) {
+    for(vector<vec>::size_type i = intersect; i <= vectors.size(); i++) { //O(n)
         vec curVec = vectors[i];
         if(i == vectors.size())
             curVec = vectors[0];
-
+        //calculating vector from previous to current
         vec vecPrevToCur = curVec.minus(vectors[i - 1]);
+        //making the Matrix (M & Mt) and calculating the determinant
         m M = m{camVec2.x, -vecPrevToCur.x, camVec2.y, -vecPrevToCur.y};
         double detM = det(M);
         m Mt = m{camVec2.x, vectors[i - 1].x - cam.x, camVec2.y, vectors[i - 1].y - cam.y};
         double detMt = det(Mt);
+        //making sure the detM and detMt are within the correct limits
         if(detM !=0)
-            if(detMt/detM > 0 && detMt/detM <=1) {
+            if(detMt/detM > 0 && detMt/detM <=1) { //if determinants are within limits i have an intersection
                 intersect2 = i;
                 intSecVec2 = vec(vectors[i-1].x+detMt/detM*vecPrevToCur.x,vectors[i-1].y+detMt/detM*vecPrevToCur.y);
                 break;
             }
     }
 
+    //area that is not covered by camera
     double notCovered = 0.;
 
+    //starting position of not covered area
     vec fromVec = cam;
+    //calculating area until intersection
     int i = 1;
     while (i<intersect) {
         notCovered += fromVec.area(vectors[i]);
@@ -154,21 +166,26 @@ double calcPerc(int n){
         i++;
     }
 
+    //adding the area from last vector to camera and from intersection back to camera
     notCovered += fromVec.area(intSecVec1);
     notCovered += intSecVec1.area(cam);
 
+    //adding area from camera until second intersection
     notCovered += cam.area(intSecVec2);
     fromVec = intSecVec2;
+    //adding area from intersection until last vector.
     i=intersect2;
     while(i<vectors.size()){
         notCovered += fromVec.area(vectors[i]);
         fromVec = vectors[i];
         i++;
     }
-
+    //adding area from last vector until the first vector
     notCovered += fromVec.area(vectors[0]);
+    //adding area from start until cam.
     notCovered += vectors[0].area(cam);
 
+    //returnin the area minus not covered area over area (percentage).
     return (areal - abs(notCovered))/areal;
 }
 
