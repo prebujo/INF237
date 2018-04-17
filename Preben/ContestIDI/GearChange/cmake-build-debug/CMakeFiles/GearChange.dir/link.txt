@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GearChange.dir/main.cpp.o  -o GearChange 

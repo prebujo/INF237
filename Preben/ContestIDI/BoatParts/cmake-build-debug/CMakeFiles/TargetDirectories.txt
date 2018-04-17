@@ -1,0 +1,3 @@
+/home/preben/repo/inf237/Preben/ContestIDI/BoatParts/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/preben/repo/inf237/Preben/ContestIDI/BoatParts/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/preben/repo/inf237/Preben/ContestIDI/BoatParts/cmake-build-debug/CMakeFiles/BoatParts.dir

@@ -101,19 +101,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Supercomputer">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Supercomputer" RUN_TARGET_NAME="Supercomputer" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-    </configuration>
-    <configuration name="Supercomputer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Supercomputer" TARGET_NAME="Supercomputer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Supercomputer" RUN_TARGET_NAME="Supercomputer">
-      <envs />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Supercomputer" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Supercomputer" RUN_TARGET_NAME="Supercomputer" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Supercomputer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Supercomputer" TARGET_NAME="Supercomputer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Supercomputer" RUN_TARGET_NAME="Supercomputer" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.Supercomputer" />
     </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
