@@ -24,7 +24,8 @@ int dfsCol(bool (*G)[11][11], int col[], int n, int v){
         //if the color is valid I assign the color and check next vertex
         if (valid){
             col[v] = i;
-            return dfsCol(G, col, n, v + 1); //returning result from "dfs" graph colors
+            if(dfsCol(G, col, n, v + 1))
+                return 1;//returning result from "dfs" graph colors
         }
         //if color doesnt work changing color back to 0
         col[v] = 0;
@@ -63,12 +64,12 @@ int main(){
             G[i][c] = 1;
         }
     }
-
+    col[0]=1;
 
     //starting with checking if one color is possible until i find minimum possible colors
-    for (int k = 0; k <= N; ++k) { //O(n^n)
+    for (int k = 1; k <= N; ++k) { //O(n^n)
         bool working = true;
-        if(dfsCol(&G, col, k, 0) == 1){ //running recursive graphCol backtracking algorithm
+        if(dfsCol(&G, col, k, 1) == 1){ //running recursive graphCol backtracking algorithm
             cout <<endl<< k << endl;
             break;
         }

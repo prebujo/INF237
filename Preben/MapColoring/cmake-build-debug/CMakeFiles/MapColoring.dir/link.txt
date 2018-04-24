@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MapColoring.dir/main.cpp.o  -o MapColoring 

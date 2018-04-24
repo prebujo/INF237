@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/preben/repo/inf237/Preben/CitrusIntern/main.cpp
+iostream
+-
+vector
+-
+limits
+-
+algorithm
+-
+
