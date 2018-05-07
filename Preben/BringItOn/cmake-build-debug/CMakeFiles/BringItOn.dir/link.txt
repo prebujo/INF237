@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BringItOn.dir/main.cpp.o  -o BringItOn 

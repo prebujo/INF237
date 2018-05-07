@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HowManyDigi.dir/main.cpp.o  -o HowManyDigi 
