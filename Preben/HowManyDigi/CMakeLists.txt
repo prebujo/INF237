@@ -3,4 +3,4 @@ project(HowManyDigi)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(HowManyDigi main.cpp)
+add_executable(HowManyDigi main.cpp main2.cpp)

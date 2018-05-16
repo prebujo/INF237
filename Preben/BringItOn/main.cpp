@@ -1,25 +1,29 @@
 #include <iostream>
+#include <map>
 
 using namespace std;
 
-bool prefix(const string& a, const string& b);
-
-int compare(const string&
 
 int main() {
-    const string t1 = "test";
-    const string t2 = "testing";
-    const string t3 = "hel";
-    const string t4 = "hello world";
-    cout << prefix(t1,t2) << "," << prefix(t2,t1) << endl;
-    cout << prefix(t3,t4) << "," << prefix(t4,t3) << endl;
-    cout << prefix(t1,t4) << "," << prefix(t4,t1) << endl;
-    cout << prefix(t1,t3) << "," << prefix(t3,t1) << endl;
+    int n;
+    cin >> n;
 
-}
+    std::map<std::string, int> strMap;
+    for (int i = 0; i < n; ++i) { //O(n) kjøretid.
+        string s;
+        cin >> s;
+        if(strMap.find(s) == strMap.end())
+            cout << 0 << endl;
+        else
+            cout << strMap.find(s)->second << endl;
 
-bool prefix(const std::string& a, const std::string& b) {
-    if (a.size() > b.size()) {
-        return a.substr(0,b.size()) == b;
+        for (int j = 1; j <= s.length(); ++j) { //O(32) kjøretid
+            string sub = s.substr(0,j);
+            if(strMap.find(sub)!=strMap.end())
+                strMap.find(sub)->second +=1;
+            else
+                strMap.insert(make_pair(sub, 1));
+        }
+
     }
 }

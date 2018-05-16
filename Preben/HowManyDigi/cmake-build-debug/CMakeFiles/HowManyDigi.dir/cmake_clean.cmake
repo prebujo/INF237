@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HowManyDigi.dir/main.cpp.o"
+  "CMakeFiles/HowManyDigi.dir/main2.cpp.o"
   "HowManyDigi.pdb"
   "HowManyDigi"
 )

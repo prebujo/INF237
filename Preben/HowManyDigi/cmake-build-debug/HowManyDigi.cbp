@@ -87,6 +87,9 @@
 		<Unit filename="/home/preben/repo/inf237/Preben/HowManyDigi/main.cpp">
 			<Option target="HowManyDigi"/>
 		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/HowManyDigi/main2.cpp">
+			<Option target="HowManyDigi"/>
+		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/HowManyDigi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

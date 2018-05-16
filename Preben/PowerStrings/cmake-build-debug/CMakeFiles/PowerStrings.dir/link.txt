@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PowerStrings.dir/main.cpp.o  -o PowerStrings 
