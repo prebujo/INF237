@@ -31,6 +31,7 @@ public:
 
     vec vec45CC();
 
+    bool operator < (const vec &p) const { return x < p.x || (x == p.x && y < p.y); }
 
 };
 //costructor
@@ -73,6 +74,8 @@ double vec::area(vec v){
     return ((v.y+y)*(v.x-x))/2;
 }
 
+
+
 int main() {
     int N;
     cin >> N;
@@ -88,15 +91,20 @@ int main() {
             double x, y, w, h, v;
             cin >> x >> y >> w >> v;
 
+            //adding all corner vectors to the vector selection
             vec corner = vec(1/2*w,1/2*h).rotate(v);
+            vectors.push_back(vec(x,y).add(corner));
+            corner = corner.rotateLeft();
+            vectors.push_back(vec(x,y).add(corner));
+            corner = corner.rotateLeft();
+            vectors.push_back(vec(x,y).add(corner));
+            corner = corner.rotateLeft();
+            vectors.push_back(vec(x,y).add(corner));
 
-            
-
+            //calc area
             boardSpace += w*h;
-
-
-
         }
+
 
     }
 
