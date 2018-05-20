@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/BoardWrapping.dir/main.cpp.o  -o BoardWrapping 
+/usr/bin/c++  -g   CMakeFiles/BoardWrapping.dir/main.cpp.o CMakeFiles/BoardWrapping.dir/main2.cpp.o  -o BoardWrapping 

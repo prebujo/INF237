@@ -3,4 +3,4 @@ project(BoardWrapping)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(BoardWrapping main.cpp)
+add_executable(BoardWrapping main.cpp main2.cpp)

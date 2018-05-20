@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/BoardWrapping.dir/main.cpp.o"
+  "CMakeFiles/BoardWrapping.dir/main2.cpp.o"
   "BoardWrapping.pdb"
   "BoardWrapping"
 )

@@ -87,6 +87,9 @@
 		<Unit filename="/home/preben/repo/inf237/Preben/BoardWrapping/main.cpp">
 			<Option target="BoardWrapping"/>
 		</Unit>
+		<Unit filename="/home/preben/repo/inf237/Preben/BoardWrapping/main2.cpp">
+			<Option target="BoardWrapping"/>
+		</Unit>
 		<Unit filename="/home/preben/repo/inf237/Preben/BoardWrapping/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
