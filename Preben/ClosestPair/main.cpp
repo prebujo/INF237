@@ -12,129 +12,116 @@ struct DoublePoint{
     Point a, b;
     double d;
 
+    DoublePoint() {}
+    DoublePoint(Point a,Point b,double d) : a(a), b(b), d(d) {}
+
     bool operator < (const DoublePoint &p) const { return d < p.d; }
 };
 
-int compareX (const void * a, const void * b) {
-    return ( ((Point *)a)->x - ((Point *)b)->x );
+int compareX (const void* a, const void* b) {
+    Point *p1 = (Point *)a;
+    Point *p2 = (Point *)b;
+    return (p1->x - p2->x);
 }
 
-int compareY (const void * a, const void * b) {
-    return ( ((Point *)a)->y - ((Point *)b)->y );
+int compareY (const void* a, const void* b) {
+    Point *p1 = (Point *)a;
+    Point *p2 = (Point *)b;
+    return (p1->y - p2->y);
 }
 
-double dist(Point a, Point b){
-    return sqrt( (a.x - b.x)*(a.x - b.x) + (a.y - b.y)*(a.y - b.y) );
+double dist(Point p1, Point p2){
+    double d1 = (p1.x - p2.x);
+    double d2 = (p1.y - p2.y);
+    return sqrt( d1*d1 + d2*d2);
 }
 
-DoublePoint min(DoublePoint a, DoublePoint b){
-    if(a.d<b.d)
+DoublePoint minD(DoublePoint a, DoublePoint b){
+    if(a<b)
         return a;
     else
         return b;
 }
 
-DoublePoint stripClosest(Point strip[], int size, DoublePoint d)
-{
+DoublePoint splitClosest(Point split[], int size, DoublePoint d){ // O(n)
     DoublePoint closest = d;// Initialize the minimum DoublePoint
 
-    qsort(strip, size, sizeof(Point), compareY);
-
-    // Pick all points one by one and try the next points till the difference
-    // between y coordinates is smaller than d.
+    // Check all points one by one until difference of y is less than d
+    // only then can the total distance be less than the closest d
     for (int i = 0; i < size; ++i)
-        for (int j = i+1; j < size && (strip[j].y - strip[i].y) < closest.d; ++j) {
-            double dis = dist(strip[i], strip[j]);
+        for (int j = i+1; j < size && (split[j].y - split[i].y) < closest.d; ++j) {
+            double dis = dist(split[i], split[j]);
             if (dis < closest.d) {
-                closest.a = strip[i];
-                closest.b = strip[j];
-                closest.d = dis;
+                closest = DoublePoint(split[i], split[j], dis);
             }
         }
     return closest;
 }
 
+//printing the points in a DoublePoint
 void printPoints(DoublePoint dp){
-    cout  << dp.a.x << " " << dp.a.y << " " << dp.b.x << " " << dp.b.y<<endl;
+    printf("%.3f %.3f %.3f %.3f\n", dp.a.x, dp.a.y, dp.b.x,dp.b.y);
 }
 
 DoublePoint closestPair(Point Px[], Point Py[], int n) {
-    DoublePoint closest;
     // If there are 2 or 3 points, then use brute force to find closest point
     if (n <= 3) {
-        closest.d = numeric_limits<double>::max();
-        for (int i = 0; i < n; ++i)
-            for (int j = i+1; j < n; ++j) {
+        Point a,b;
+        DoublePoint closest = DoublePoint( a, b,numeric_limits<double>::max());
+        for (int i = 0; i < n; ++i) {
+            for (int j = i + 1; j < n; ++j) {
                 double dis = dist(Px[i], Px[j]);
-                if ( dis < closest.d) {
-                    closest.a = Px[i];
-                    closest.b = Px[j];
-                    closest.d = dis;
+                if (dis < closest.d) {
+                    closest = DoublePoint(Px[i], Px[j], dis);
                 }
             }
+        }
         return closest;
     }
 
-    // setting middle point
-    int mid = n/2;
-    Point midPoint = Px[mid];
+    // setting middle/split point
+    int mid = n/2;    std::cout << "Hello, World!" << std::endl;
+    return 0;
+    Point midP = Px[mid];
 
-    // Divide points in y sorted array around the vertical line.
-    // Assumption: All x coordinates are distinct.
-    Point PyL[mid+1];   // y sorted points on left of vertical line
-    Point PyR[n-mid-1];  // y sorted points on right of vertical line
-    int li = 0, ri = 0;  // indexes of left and right subarrays
-    for (int i = 0; i < n; i++)
-    {
-        if (Py[i].x > midPoint.x) {
-            PyR[ri] = Py[i];
-            ri++;
+    // Divide ysorted points left of mid line
+    Point PyL[mid];   // left side
+    Point PyR[n-mid];  // right side
+    int l = 0, r = 0;  // indexes of left and right subarrays
+    for (int i = 0; i < n; i++){
+        if (Py[i].x > midP.x && r < n-mid) {
+            PyR[r] = Py[i];
+            r++;
+        } else if(l <mid) {
+            PyL[l] = Py[i];
+            l++;
         } else {
-            PyL[li] = Py[i];
-            li++;
+            PyR[r] = Py[i];
+            r++;
         }
     }
 
 
-    // Consider the vertical line passing through the middle point
-    // calculate the smallest distance dl on left of middle point and
-    // dr on right side
-    DoublePoint dl = closestPair(Px, PyL, mid);
-    DoublePoint dr = closestPair(Px + mid, PyR, n-mid);
+    //Find the smallest distance DoublePoint on the left side of the split and on the right side
+    DoublePoint dl = closestPair(Px, PyL, mid); // O(logn)
+    DoublePoint dr = closestPair(Px + mid, PyR, n-mid); //O(logn)
 
-    // keeping the smallest doublepoint
-    DoublePoint dclosest = min(dr,dl);
+    // keeping the smallest from each side
+    DoublePoint dclosest = minD(dr,dl);
 
-
-    // Build an array strip[] that contains points close (closer than d)
-    // to the line passing through the middle point
-    Point strip[n];
+    // Build an array split[] that contains points close (closer than closestd)
+    // to the line passing through the middle split point
+    Point split[n];
     int j = 0;
     for (int i = 0; i < n; i++)
-        if (abs(Py[i].x - midPoint.x) < dclosest.d)
-            strip[j] = Py[i], j++;
+        if (abs(Py[i].x - midP.x) < dclosest.d) {
+            split[j] = Py[i];
+            j++;
+        }
 
-    // Find the closest points in strip.  Return the minimum of d and closest
-    // distance of strip[]
-    return min(dclosest, stripClosest(strip, j, dclosest) );
-}
-
-// The main function that finds the smallest distance
-DoublePoint closestP(Point P[], int n) {
-
-    Point Px[n];
-    Point Py[n];
-    for (int i = 0; i < n; i++)
-    {
-        Px[i] = P[i];
-        Py[i] = P[i];
-    }
-    int size = sizeof(Point);
-    qsort(Px, n, size, compareX);
-    qsort(Py, n, size, compareY);
-
-    // recursive call on closestPair
-    return closestPair(Px, Py, n);
+    // Find the closest points in the split array.  Return the minimum of dclosest and closest
+    // distance of split[]
+    return minD(dclosest, splitClosest(split, j, dclosest) );
 }
 
 int main() {
@@ -151,8 +138,23 @@ int main() {
             cin>>x>>y;
             points[i] = {x,y};
         }
-        int n = sizeof(points) / sizeof(points[0]);
-        printPoints(closestP(points, n));
+        int N = sizeof(points) / sizeof(points[0]);
+
+        //initiating x and y sorted arrays..
+        Point Px[N];
+        Point Py[N];
+        int i = N-1;
+        while(i>=0){
+            Px[i] = points[i];
+            Py[i] = points[i];
+            i--;
+        }
+
+        int size = sizeof(Point);
+        qsort(Px, N, size, compareX); // sorting according to x value
+        qsort(Py, N, size, compareY); // sorting according to y value
+
+        printPoints(closestPair(Px, Py, N)); //tot runtime O(nlogn)
     }
     return 0;
 }

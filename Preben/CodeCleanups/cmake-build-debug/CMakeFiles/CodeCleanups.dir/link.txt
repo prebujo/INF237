@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CodeCleanups.dir/main.cpp.o  -o CodeCleanups 

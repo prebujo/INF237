@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/preben/repo/inf237/Preben/BoardWrapping/main.cpp
+iostream
+-
+vector
+-
+cmath
+-
+algorithm
+-
+stack
+-
+
+/home/preben/repo/inf237/Preben/BoardWrapping/main2.cpp
+

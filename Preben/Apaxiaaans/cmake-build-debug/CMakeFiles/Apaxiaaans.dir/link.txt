@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Apaxiaaans.dir/main.cpp.o  -o Apaxiaaans 

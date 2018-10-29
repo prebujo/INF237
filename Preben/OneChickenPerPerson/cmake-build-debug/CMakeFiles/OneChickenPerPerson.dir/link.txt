@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OneChickenPerPerson.dir/main.cpp.o  -o OneChickenPerPerson 

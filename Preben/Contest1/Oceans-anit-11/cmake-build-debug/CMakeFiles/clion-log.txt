@@ -1,6 +1,6 @@
 /home/preben/prog/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/preben/repo/inf237/Preben/Contest1/Oceans-anit-11
--- The C compiler identification is GNU 5.4.0
--- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
