@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CountingClauses.dir/main.cpp.o  -o CountingClauses 

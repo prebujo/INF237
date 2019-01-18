@@ -1,0 +1,3 @@
+/home/preben/repo/237inf/problems/LicenseToLaunch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/preben/repo/237inf/problems/LicenseToLaunch/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/preben/repo/237inf/problems/LicenseToLaunch/cmake-build-debug/CMakeFiles/LicenseToLaunch.dir

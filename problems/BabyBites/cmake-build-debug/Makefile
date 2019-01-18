@@ -48,10 +48,10 @@ RM = /home/preben/prog/clion-2017.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/preben/repo/inf237/Preben/BabyBites
+CMAKE_SOURCE_DIR = /home/preben/repo/237inf/problems/BabyBites
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug
+CMAKE_BINARY_DIR = /home/preben/repo/237inf/problems/BabyBites/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug/CMakeFiles /home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/preben/repo/237inf/problems/BabyBites/cmake-build-debug/CMakeFiles /home/preben/repo/237inf/problems/BabyBites/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/preben/repo/237inf/problems/BabyBites/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

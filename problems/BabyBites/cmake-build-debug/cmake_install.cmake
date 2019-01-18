@@ -1,4 +1,4 @@
-# Install script for directory: /home/preben/repo/inf237/Preben/BabyBites
+# Install script for directory: /home/preben/repo/237inf/problems/BabyBites
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/preben/repo/237inf/problems/BabyBites/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

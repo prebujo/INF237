@@ -1,4 +1,4 @@
-/home/preben/prog/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/preben/repo/inf237/Preben/BabyBites
+/home/preben/prog/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/preben/repo/237inf/problems/BabyBites
 -- The C compiler identification is GNU 7.3.0
 -- The CXX compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug
+-- Build files have been written to: /home/preben/repo/237inf/problems/BabyBites/cmake-build-debug

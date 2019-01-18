@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/preben/repo/inf237/Preben/BabyBites/main.cpp" "/home/preben/repo/inf237/Preben/BabyBites/cmake-build-debug/CMakeFiles/BabyBites.dir/main.cpp.o"
+  "/home/preben/repo/237inf/problems/BabyBites/main.cpp" "/home/preben/repo/237inf/problems/BabyBites/cmake-build-debug/CMakeFiles/BabyBites.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
